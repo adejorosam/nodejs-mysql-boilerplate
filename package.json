@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-mysql-boilerplate",
+  "version": "1.0.0",
+  "description": "Everything you need to set up your Nodejs project with a MySQL database configuration",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adejorosam/nodejs-mysql-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "sql",
+    "database"
+  ],
+  "author": "Samson Adejoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adejorosam/nodejs-mysql-boilerplate/issues"
+  },
+  "homepage": "https://github.com/adejorosam/nodejs-mysql-boilerplate#readme"
+}
