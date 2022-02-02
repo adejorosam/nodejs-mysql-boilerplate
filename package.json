@@ -2,9 +2,10 @@
   "name": "nodejs-mysql-boilerplate",
   "version": "1.0.0",
   "description": "Everything you need to set up your Nodejs project with a MySQL database configuration",
-  "main": "server.js",
+  "main": "./src/server.js",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,23 @@
   "bugs": {
     "url": "https://github.com/adejorosam/nodejs-mysql-boilerplate/issues"
   },
-  "homepage": "https://github.com/adejorosam/nodejs-mysql-boilerplate#readme"
+  "homepage": "https://github.com/adejorosam/nodejs-mysql-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^15.0.0",
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "colour": "^0.7.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.2",
+    "nodemon": "^2.0.14",
+    "sequelize": "^6.8.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  }
 }
